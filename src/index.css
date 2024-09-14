@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.summary-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 5px 2px;
+    background-color: black;
+    color: #f3f3f3;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.show-span{
+    font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table, tr, th, td, thead, tbody{
+    padding: 4px 2px;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ tr {
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+input, select, option{
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 3px 10px;
+}
+
+button{
+    border-radius: 50px;
+    font-size: 17px;
+    padding: 3px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.d-flex {
+    display: block;
+    margin-left: 500px;
+}
+
+.button-feature{
+    margin-left: 77px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-feature{
+    background-color: #3f3f3f;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+
